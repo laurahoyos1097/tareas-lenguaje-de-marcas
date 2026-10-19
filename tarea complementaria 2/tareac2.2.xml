@@ -1,0 +1,38 @@
+<!--Crea un documento XML bien formado que almacene una agenda en la
+que cada contacto tenga un nombre sólo, y un número aleatorio de
+emails y teléfonos.-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<agenda>
+    <contacto>
+        <nombre>Laura Hoyos</nombre>
+        <emails>
+            <email>email@email.com</email>
+        </emails>
+        <telefonos>
+            <telefono>666666666</telefono>
+            <telefono>666666666</telefono>
+        </telefonos>
+    </contacto>
+    <contacto>
+        <nombre>Eduardo Ruiz</nombre>
+        <emails>
+            <email>email@email.com</email>
+            <email>email@email.com</email>
+        </emails>
+        <telefonos>
+            <telefono>666666666</telefono>
+        </telefonos>
+    </contacto>
+    <contacto>
+        <nombre>Nathan Mulero</nombre>
+        <emails>
+            <email>email@email.com</email>
+            <email>email@email.com</email>
+            <email>email@email.com</email>
+        </emails>
+        <telefonos>
+            <telefono>666666666</telefono>
+        </telefonos>
+    </contacto>
+</agenda>

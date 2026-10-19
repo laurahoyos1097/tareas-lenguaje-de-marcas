@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario Tarea 5</title>
+    <link rel="stylesheet" href="tarea5.css">
+</head>
+
+<body>
+
+    <p>FORMULARIO</p>
+    <form>
+
+        <div class="contenedor-correo">
+            <label for="correo">Correo</label>
+            <input type="email" id="correo" name="correo">
+        </div>
+
+        <div class="contenedor-aficiones">
+            <label>Aficiones</label><br>
+
+            <input type="checkbox" id="deporte" name="aficion" value="deporte">
+            <label class="checkbox-label" for="deporte">Deporte</label><br>
+
+            <input type="checkbox" id="cine" name="aficion" value="cine">
+            <label class="checkbox-label" for="cine">Cine</label><br>
+
+            <input type="checkbox" id="teatro" name="aficion" value="teatro">
+            <label class="checkbox-label" for="teatro">Teatro</label><br>
+        </div>
+
+        <div class="contenedor-provincia">
+            <label for="provincia">Provincia</label>
+            <select id="provincia" name="provincia">
+                <option value="">Seleccione</option>
+                <option value="alava">Álava</option>
+                <option value="barcelona">Barcelona</option>
+                <option value="madrid">Madrid</option>
+                <option value="sevilla">Sevilla</option>
+            </select>
+             <button type="submit">Enviar</button>
+            <button type="reset">Borrar</button>
+        </div>
+
+    </form>
+
+</body>
+
+</html>

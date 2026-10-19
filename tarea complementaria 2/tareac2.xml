@@ -1,0 +1,23 @@
+<!-- Corrige el siguiente documento XML para que esté bien formado:
+<?xml version="1.0" encoding="UTF-8"?>
+<deportistas>
+<deportista>
+<deporte Atletismo />
+<nombre>Jesse Owens</nombre>
+<deportista>
+<deporte Natación />
+<nombre>Mark Spitz</nombre>
+</deportista>
+</deportistas> -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<deportistas>
+    <deportista>
+        <deporte>Atletismo</deporte>
+        <nombre>Jesse Owens</nombre>
+    </deportista>
+    <deportista>
+        <deporte>Natación</deporte>
+        <nombre>Mark Spitz</nombre>
+    </deportista>
+</deportistas>

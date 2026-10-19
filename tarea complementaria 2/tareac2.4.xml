@@ -1,0 +1,29 @@
+<!--Crea un documento XML que represente un catálogo de productos
+electrónicos. Cada producto debe tener los siguientes elementos: nombre,
+descripción, precio y una lista de características. Cada característica debe
+tener un nombre y un valor asociado. Incluye al menos dos productos en el
+catálogo, cada uno con diferentes características-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo>
+    <producto>
+        <nombre>Halloween</nombre>
+        <descripción>Fragancia para mujer floral oriental que destaca por su feminidad.</descripción>
+        <precio>23,95€</precio>
+        <caracteristicas>
+            <caracteristica>Notas de Salida: Violeta, lima, plátano verde.</caracteristica>
+            <caracteristica>Notas de Corazón: Magnolia de Casablanca, violeta, nardo, pimienta.</caracteristica>
+            <caracteristica>Notas de Fondo: Madera de sándalo, incienso, mirra, vainilla de Madagascar.</caracteristica>
+        </caracteristicas>
+    </producto>
+    <producto>
+        <nombre>Phantom</nombre>
+        <descripción>Una fragancia futurista, nacida de la fusión del lujo de la artesanía y las nuevas tecnologías.</descripción>
+        <precio>61,85€</precio>
+        <caracteristicas>
+            <caracteristica>Notas de Salida: CÍTRICO: una nota de salida cítrica a base de Limón con un origen predilecto y seleccionado especialmente para Phantom.</caracteristica>
+            <caracteristica>Notas de Corazón: LAVANDA 3.0: Un aromático de última generación. Un corazón de lavandín EXCLUSIVO creado especialmente para Phantom… Cremoso y reinventado. 100 % adictivo, 100 % delicioso</caracteristica>
+            <caracteristica>Notas de Fondo: VAINILLA:. Una base de vainilla EXCLUSIVA creada solo para Phantom</caracteristica>
+        </caracteristicas>
+    </producto>
+</catalogo>

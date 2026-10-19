@@ -1,0 +1,15 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.titulos {
+  font-weight: bold;
+  text-decoration: underline;
+  padding-left: 15px;
+}
+.pl-15 {
+    padding-left: 15px;
+}
+ol, li {
+    padding-bottom: 2px;
+    padding-top: 2px;
+}

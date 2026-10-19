@@ -1,0 +1,27 @@
+<!--A partir de la siguiente tabla, crea un documento XML que represente la
+información de los empleados de una empresa.-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<tabla>
+    <persona>
+        <nombre>Ana</nombre>
+        <apellido>García</apellido>
+        <edad>30</edad>
+        <departamento>Ventas</departamento>
+        <cargo>Ejecutiva de ventas</cargo>
+    </persona>
+    <persona>
+        <nombre>Luis</nombre>
+        <apellido>Rodríguez</apellido>
+        <edad>45</edad>
+        <departamento>Finanzas</departamento>
+        <cargo>Analista financiero</cargo>
+    </persona>
+    <persona>
+        <nombre>María</nombre>
+        <apellido>López</apellido>
+        <edad>28</edad>
+        <departamento>Marketing</departamento>
+        <cargo>Especialista en redes sociales</cargo>
+    </persona>
+</tabla>

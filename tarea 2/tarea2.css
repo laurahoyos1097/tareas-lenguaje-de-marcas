@@ -1,0 +1,17 @@
+label {
+  display: block;
+  padding-top: 10px;
+}
+
+fieldset {
+  max-width: 300px;
+  border-color: #eae3e3;
+}
+
+input {
+  border: 2px solid #8badcc;
+}
+
+.boton {
+  margin-top: 10px;
+}
